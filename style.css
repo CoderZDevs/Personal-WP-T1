@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  color: white !important;
+  background-image: url('img/bg.png');
+  background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+  
+}
+
+.row
+{
+  padding-top:50px;
+  padding-top:50px;
+}
+nav
+{
+  padding:25px;
+  display:flex;;
+  background-color: #614b5a5e;
+}
+nav h3{
+  font-weight: 300;
+  display:inline-block;
+  
+}
+
+
+.service-box {
+    box-shadow: 0 0 4px 0 #c609ff;
+    padding: 15px;
+    position: relative;
+    background-color: #504b4350;
+    
+
+}
+.service-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 4px 0 #c609ff;
+  padding: 15px;
+  position: relative;
+  background-color: #50434ac9;
+
+}
+
+p {
+    text-align: justify;
+    
+}
+
+
+.nbtn
+{
+  width: 50px;
+  height:50px;
+  background-color: rgb(121, 100, 113);
+  margin-left:5%;
+  display:inline-block;
+  border:none;
+  outline:none;
+  cursor: pointer;
+
+
+}
+
+
+span {
+    background: linear-gradient(to right, #ff105f, #065dff);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: 10000;
+}
+
+a .fa {
+    color: #fff;
+    font-size: 25px !important;
+    padding-top: 6px;
+   
+}
+.row i{
+  color:#db28a2;
+  font-size: 100px;
+}
+
+
+.askval{
+  display:none;
+  position:absolute;
+  z-index:100;
+  background-color: rgba(0, 0, 0, 0.856);
+  box-shadow: 3px 3px 3px 3px #932cb3;
+  margin-left:30%;
+  padding:8%;
+  padding-left:4%;
+  width:50%;
+  
+}
+.askval.active
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.submit
+{
+  width: 100px;
+  height:50px;
+  background-color: rgb(121, 100, 113);
+  margin-left:5%;
+  margin-top:5%;
+  border:none;
+  outline:none;
+  cursor: pointer;
+
+
+}
+
+input{
+  margin-top:30px;
+  width:70%;
+  height:70px;
+  font-size: 40px;
+  border:none;
+  border-radius: 5px;
+  outline:none;
+  background-color: rgb(187, 170, 180);
+
+}
+.container
+{
+  width:100%;
+  height:100vh;
+}
+
+footer{
+  padding:25px;
+  display:flex;
+  flex-direction: row;
+  position:fixed;
+  height:80px;
+  width:100%;
+  margin:0;
+  background-color: #614b5a5e !important;
+  border:solid 1px black;
+}
+footer img{
+  height:80px;
+  width:80px;
+  float:left;
+  margin-top:-4%;
+  margin-left:2%;
+  z-index: 100;
+  box-shadow: 3px 3px 3px 3px #446ebd;
+
+}
+
+footer a{
+  text-decoration: none;
+  color:#fff !important;
+  
+}
+
+footer h4{
+  float:left;
+  margin-left:8%;
+}
